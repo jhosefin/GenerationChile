@@ -1,0 +1,57 @@
+/* ctrl k c*/
+/* shift alt a */
+
+/* Selectores */
+
+/* Por etiqueta */
+
+*{
+    background-color: lightcoral;
+}
+
+h1{
+    color: aqua;
+}
+h2{
+    color: blueviolet;
+}
+
+/* por clase */
+.subtitulo{
+    color: orangered;
+}
+
+.parrafo{
+    color: olive;
+}
+
+
+/* por id */
+#loquehiceenlamañana{
+    color: pink;
+    background-color: goldenrod;
+    border: 1px black dashed;
+    border-radius: 100px;
+    text-align: center;
+    width: 50%;
+    height: 50px ;
+    margin: 20px;
+}
+#cuadradoext {
+    border: 3px blue dotted;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+}
+
+#cuadradoint {
+    background-color: aqua;
+    border: 1px black dashed;
+    height: 70px;
+    width: 70px;
+    margin: 50px;
+    padding: 20px;
+
+}

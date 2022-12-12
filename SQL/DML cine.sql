@@ -57,4 +57,13 @@ FROM cine_autoservicio.boleto
 LEFT JOIN cine_autoservicio.venta on cine_autoservicio.boleto.boleto_id = cine_autoservicio.venta.boleto_id;
 
 
+SELECT cliente.nombre,boleto.precio
+FROM cine_autoservicio.venta
+INNER JOIN cliente
+ON cine_autoservicio.cliente_id=cliente.cliente_id;
 
+SELECT boleto.precio, venta.cliente_id , cliente.nombre
+FROM cine_autoservicio.boleto, cine_autoservicio.cliente
+INNER JOIN cine_autoservicio.venta ON cine_autoservicio.cliente.cliente_id=cine_autoservicio.venta.cliente_id
+INNER JOIN cine_autoservicio.venta ON cine_autoservicio.boleto.boleto_id=cine_autoservicio.venta.boleto_id
+ORDER BY cine_autoservicio.venta.cliente_id;

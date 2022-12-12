@@ -151,5 +151,41 @@ return [min,max];
 
 MinMax(numeros);
 
+/*
+
+
+
+console.log("ingresame el dia");
+console.log("");
+let precio = [200, 300, 500];
+let dias = "lunes";
+var suma = 0;
+
+if (dias === "martes" || dias === "jueves"){ 
+
+function  descuento20(array){  
+
+    for (let i = 0; i < precio.length ; i++){
+        
+        suma = precio[i] + suma;
+    }
+let descuento = suma - (suma * 0.8);
+var mostrar = "Suerte!! Hoy tenemos descuento, su total seria de  "  + descuento;
+
+console.log(mostrar);
+return [mostrar];
+}
+descuento20(precio);
+
+}else{
+    for (var i = 0; i < precio.length ; i++){
+            
+        suma = precio[i] + suma;
+}
+var mostrar1 = "No hay descuentos para este dia, el total de su compra es: " + suma;
+console.log(mostrar1);
+return [mostrar1];
+}
+console.log("");*/
 
 

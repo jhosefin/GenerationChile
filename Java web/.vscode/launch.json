@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RebecaApplication<rebeca>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.generation.rebeca.RebecaApplication",
+            "projectName": "rebeca",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
